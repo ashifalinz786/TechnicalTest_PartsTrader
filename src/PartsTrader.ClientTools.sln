@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartsTrader.ClientTools", "PartsTrader.ClientTools\PartsTrader.ClientTools.csproj", "{2BC3433A-631C-4280-80E9-959D1F597DCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartsTrader.ClientTools.Tests", "PartsTrader.ClientTools.Tests\PartsTrader.ClientTools.Tests.csproj", "{32F0A77B-22A2-4FA1-B2D1-408321AA7590}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E15FC180-17EB-4EB3-9B01-4B40F507640C}"
+	ProjectSection(SolutionItems) = preProject
+		..\Readme.md = ..\Readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartsTrader.ClientTools.Api", "PartsTrader.ClientTools.Api\PartsTrader.ClientTools.Api.csproj", "{9D8DB418-6BC3-419B-BD4D-36B7179F51D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BC3433A-631C-4280-80E9-959D1F597DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC3433A-631C-4280-80E9-959D1F597DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC3433A-631C-4280-80E9-959D1F597DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC3433A-631C-4280-80E9-959D1F597DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32F0A77B-22A2-4FA1-B2D1-408321AA7590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F0A77B-22A2-4FA1-B2D1-408321AA7590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F0A77B-22A2-4FA1-B2D1-408321AA7590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F0A77B-22A2-4FA1-B2D1-408321AA7590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D8DB418-6BC3-419B-BD4D-36B7179F51D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D8DB418-6BC3-419B-BD4D-36B7179F51D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D8DB418-6BC3-419B-BD4D-36B7179F51D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D8DB418-6BC3-419B-BD4D-36B7179F51D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

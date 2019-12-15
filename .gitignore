@@ -1,0 +1,28 @@
+# Visual Studio files
+*.vssscc
+*.vspscc
+*.suo
+*.tmp
+~*.docx
+*.user
+
+# ignore library files
+/[Ll]ib/
+/[Ss]rc/packages/
+
+# Build output
+[Bb]in/
+[Oo]bj/
+[Bb]uild/
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Git
+**/.HistoryData/**
+
+# MSTest
+/[Ss]rc/TestResults/**
+src/.vs/config/applicationhost.config
